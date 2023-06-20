@@ -1,0 +1,34 @@
+body{
+    background-color: aliceblue;
+}
+.main{
+    width:300px;
+    text-align: center;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    background-color: #00a2d1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.selectedcolor{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.colorgrid{
+    display:grid;
+    width:30px;
+    height:30px;
+    border:none;
+    border-radius:100px;
+}
+.infotext{
+    color: darkblue;
+    font-size: 15px;
+}
